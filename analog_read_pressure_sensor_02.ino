@@ -14,9 +14,9 @@ void loop() {
   val0 = analogRead(analogPin0);  // read the input pin
   val1 = analogRead(analogPin1);  // read the input pin
   val2 = analogRead(analogPin2);  // read the input pin
-  Serial.println(val0);          // debug value
-  Serial.println(",");
-  Serial.println(val1);
-  Serial.println(",");
+  Serial.print(val0);          // debug value
+  Serial.print(",");
+  Serial.print(val1);
+  Serial.print(",");
   Serial.println(val2);
 }
